@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +8,285 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Quicksand', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+button {
+  height: 30px;
+  margin: 5px;
+  background: white;
+  border: 1px solid rgba(200,200,200,1);
+  border-radius: 3px;
+  font-size: 14px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+button:hover {
+  background: rgba(248,248,248,1);
+  border: 1px solid rgba(190,190,190,1);
+}
+button:focus {
+  outline:0;
+}
+input:focus {
+  outline:0;
+}
+
+
+.buttonBlue {
+  background-color: rgba(70,160,240,1);
+  color: white;
+  border: 1px solid rgba(70,160,240,1);
+}
+.buttonBlue:hover {
+  background-color: rgba(40,140,230,1);
+  color: white;
+  border: 1px solid rgba(40,140,230,1);
+}
+.inactiveButton {
+  opacity: .4;
+  cursor: default;
+}
+.inactiveButton:hover {
+  opacity: .4;
+  cursor: default;
+}
+
+.heading {
+  font-size: 50px;
+  margin: 15px;
+}
+.heading2 {
+  font-size: 36px;
+  margin: 15px;
+}
+.subHeading {
+  color: rgba(100,100,100,1);
+  font-size: 20px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text1 {
+  font-size: 16px;
+  padding: 8px;
+  /*border-bottom: 1px solid rgba(200,200,200,.2);*/
+  cursor: pointer;
+  margin: 6px;
+  color: rgba(130,130,130,1);
+}
+.text1:hover {
+  color: rgba(50,50,50,1);
+}
+.spacer20 {
+  height: 20px;
+  width: 20px;
+}
+.spacer30 {
+  height: 30px;
+  width: 30px;
+}
+.invisible {
+  opacity: 0;
+}
+
+.unLink {
+  text-decoration: none;
+  color: black;
+}
+.ppMeadium {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  border: 3px solid rgba(100,190,240,1);
+  cursor: pointer;
+}
+.ppTiny {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin: 20px;
+  border: 3px solid rgba(100,190,240,1);
+  cursor: pointer;
+}
+.ppTiny2 {
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
+  /*margin: 20px;*/
+  margin-top: 5px;
+  border: 2px solid rgba(100,190,240,1);
+  cursor: pointer;
+}
+.ppTiny2Grey {
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
+  /*margin: 20px;*/
+  margin-top: 5px;
+  border: 2px solid rgba(100,190,240,1);
+  cursor: pointer;
+  opacity: .4;
+}
+.popover {
+  font-size: 12px;
+  background-color: rgba(80,70,60,1);
+  color: white;
+  padding: 10px;
+  margin: 7px;
+  border-radius: 5px;
+}
+.popoverBody {
+  font-size: 10px;
+  padding-top: 4px;
+}
+.popoverHeader {
+  margin: 0px;
+  padding: 0px;
+}
+
+.backImage {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 4px;
+  padding-right: 6px;
+  opacity: 1;
+}
+.backImage:hover {
+  opacity: .6;
+}
+.nextImage {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  /*transform: rotate(180deg);*/
+  opacity: 1;
+}
+.nextImage:hover {
+  opacity: .6;
+}
+.flex1Line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tinyPfPic {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  /*opacity: .5;*/
+  border: 1px solid rgba(10,60,200,.3);
+  margin-right: 10px;
+  background: rgba(100,100,100,.5);
+}
+.pending {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  cursor: pointer;
+  /*opacity: .7;*/
+  border: 3px solid rgba(10,60,200,.3);
+}
+.pending:hover {
+  opacity: .9;
+}
+.opacity50 {
+  opacity: .5;
+}
+.fadedWriting {
+  color: rgba(140,140,140,1);
+}
+.deleteButton {
+  background: rgba(250,70,40,.4);
+  border: 1px solid white;
+  color: white;
+}
+.deleteButton:hover {
+  background: rgba(250,70,40,.9);
+  border: 1px solid white;
+}
+.addButton {
+  color: white;
+  background-color: rgb(120,200,80);
+  font-size: 16px;
+  width: 55px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid rgb(120,200,80);
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addButton:hover {
+  background: rgb(130,210,90);
+  border: 1px solid rgb(120,200,80);
+}
+.pendingRequest {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.requestNumber {
+  border: 1px solid red;
+  width: 10px;
+  font-size: 8px;
+}
+
+
+/*dropDown*/
+.backdropStyle {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.modalStyle {
+  border: 1px solid rgba(220,220,220,1);
+  width: 180px;
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0px;
+}
+.footerStyle {
+  position: absolute;
+  bottom: 20px;
+}
+.headerStyle {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  display: flex;
+
+  align-items: flex-end;
+}
+.boxSize {
+  margin-bottom: 50px;
+}
+
+.lowOpacity {
+  opacity: .5;
+  cursor: default;
+}
+
+

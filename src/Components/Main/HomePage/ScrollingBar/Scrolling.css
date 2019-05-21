@@ -1,0 +1,19 @@
+
+.cards-slider-wrapper {
+	display: flex;
+	position: absolute;
+	transition: transform 800ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.cards-slider {
+	position: relative;
+	/*max-width: 226px;*/
+	/*margin: auto;*/
+}
+
+.scrollingContainerWidth {
+	width: 61%;
+	overflow-x: hidden;
+	margin: auto;
+	padding: 6px;
+}

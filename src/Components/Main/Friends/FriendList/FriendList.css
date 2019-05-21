@@ -1,0 +1,61 @@
+.friendTable {
+	width: 650px;
+	height: 100%;
+	background-color: rgba(220,220,220,.2);
+	border: 1px solid rgba(220,220,220,.3);
+	margin: auto;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 40px;
+	/*border: 1px solid red;*/
+}
+.friendListBorder {
+	width: 50%;
+	margin: auto;
+	border-radius: 5px;
+}
+.friendListHeading {
+	color: rgba(100,100,100,1);
+	height: 40px;
+}
+.friendNameDisplay {
+	height: 40px;
+	width: 240px;
+	border-bottom: 1px solid rgba(220,220,220,.3);
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	/*border: 1px solid red;*/
+}
+.friendNameDisplay:hover {
+	background-image: radial-gradient(white, rgba(220,220,220,0));
+	box-shadow: 0px 1px 8px rgba(200,200,200,.1);
+}
+.friendNameInfo {
+	height: 40px;
+	width: 200px;
+	border-bottom: 1px solid rgba(220,220,220,.3);
+	margin: auto;
+	padding-top: 20px;
+}
+.width80 {
+	width: 80px;
+}
+
+.ppGrey {
+  	height: 30px;
+  	width: 30px;
+  	border-radius: 100%;
+  	margin: 20px;
+  	border: 3px solid rgba(190,190,190,1);
+  	cursor: pointer;
+  	/*filter: grayscale(.3);*/
+  	/*filter: brightness(.8);*/
+}
+.greyedText {
+	color: rgb(210,210,210);
+}

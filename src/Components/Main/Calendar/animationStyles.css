@@ -1,0 +1,50 @@
+.box {
+	transition: all 1s;
+	height: 80px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.newBox {
+	transition: all 1s;
+	height: 80px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+
+}
+
+.opacityNone {
+	transition: all 1s;
+	opacity: 0;
+	padding-left: 50px;
+	display: flex;
+	justify-content: flex-start;
+}
+.opacityFull {
+	transition: all 1s;
+	opacity: 1;
+	padding-left: 0px;
+	display: flex;
+	justify-content: flex-start;
+}
+.opacityFinish {
+	transition: all 300ms;
+	opacity: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.calendarBoxAnimation1 {
+	transition: all 500ms;
+	opacity: 0;
+}
+.calendarBoxAnimation2 {
+	transition: all 500ms;
+	opacity: 1;
+	height: 100%;
+}

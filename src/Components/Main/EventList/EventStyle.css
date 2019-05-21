@@ -1,0 +1,281 @@
+.EventBox {
+	/*border: 1px solid red;*/
+	width: 650px;
+	margin: auto;
+	box-shadow: 4px 2px 30px rgba(220,220,220,.7);
+	border-radius: 25px;
+}
+
+
+.eventRow {
+	height: 40px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*background-image: linear-gradient(to right, skyblue, rgba(10,120,190,.2));*/
+	/*padding: 2px;*/
+}
+.item {
+	background: rgba(240,240,240,1);
+	width: 100px;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	/*padding-left: 10px;*/
+	border: 1px solid rgba(250,250,250,1);
+	/*cursor: pointer;*/
+}
+/*.item:hover {
+	background: rgba(240,240,240,.8);
+}*/
+.itemDate {
+	width: 80px;
+	display: flex;
+	justify-content: center;
+}
+.itemTask {
+	width: 280px;
+	padding-left: 10px;
+	/*border: 1px solid red;*/
+}
+.itemPerson {
+	width: 60px;
+	display: flex;
+	justify-content: center;
+}
+.itemStatus {
+	/*width: 100px;*/
+	display: flex;
+	justify-content: center;
+}
+.itemColor {
+	width: 10px;
+	background-image: linear-gradient(to right, skyblue, rgba(10,120,190,.6));
+	height: 100%;
+	border: 1px solid rgba(250,250,250,1);
+}
+.itemColor2 {
+	width: 10px;
+	background-image: linear-gradient(to right, skyblue, rgba(10,120,190,.6));
+	height: 100%;
+	border: 1px solid rgba(250,250,250,1);
+	opacity: .5;
+}
+
+.eventHeading {
+	font-size: 26px;
+	color: rgba(10,140,220,1);
+	text-decoration: bold;
+}
+.eventHeading2 {
+	font-size: 20px;
+	color: rgba(10,140,220,1);
+	text-decoration: bold;
+	text-align: left;
+}
+
+.pendingClass {
+	background: rgba(250,10,60,.6);
+	color: white;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+.pendingClass:hover {
+	background: rgba(250,10,60,.8);
+}
+.pendingClass2 {
+	background: rgba(250,10,60,.3);
+	color: white;
+	/*cursor: pointer;*/
+	display: flex;
+	justify-content: center;
+}
+.completeClass {
+	background: rgba(110,217,130,1);
+	color: white;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+}
+.completeClass:hover {
+	background: rgba(120,220,100,1);
+}
+.completeClass2 {
+	background: rgba(110,217,130,1);
+	color: white;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+}
+.completeClass2:hover {
+	background: rgba(110,217,130,1);
+	color: white;
+}
+.messageClass {
+	background: rgba(10,100,200,.6);
+	color: white;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+
+.description {
+	background: white;
+	border: 1px solid rgba(0,0,0,0);
+	color: rgb(200,200,200);
+	font-size: 18px;
+	/*opacity: .3;*/
+	cursor: default;
+}
+
+
+
+.taskHolder {
+	max-width: 250px;
+}
+.taskSelection {
+	cursor: pointer;
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+.taskSelection:hover {
+	cursor: pointer;
+	color: rgb(40,40,40);
+	/*background: rgba(249,249,249);*/
+	box-shadow: 4px 2px 30px rgba(220,220,220,.4);
+}
+.taskSelectOtherspace {
+	width: 30px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.mailICon {
+	height: 12px;
+	margin-top: 3px;
+	opacity: .6;
+}
+
+
+
+
+
+.darker {
+	background: rgb(225,225,225);
+	cursor: default;
+	color: rgba(0,0,0,0.3);
+}
+.darker:hover {
+	background: rgb(225,225,225);
+}
+.noPointer {
+	cursor: default;
+}
+
+
+.pendingDropDown {
+	border: 1px solid red;
+	height: 40px;
+	background-color: white;
+	/*position: absolute;*/
+	/*padding-right: 120px;*/
+	
+}
+
+
+
+
+/*dropDown*/
+.backdropStylePending {
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	position: fixed;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding-right: 10px;
+  	background-color: rgba(0,0,0,.2);
+}
+.modalStylePending {
+  	border: 1px solid rgb(220,220,220);
+  	width: 680px;
+  	height: 300px;
+  	position: absolute;
+  	background-color: white;
+  	border-radius: 10px;
+  	padding: 40px;
+  	display: flex;
+  	justify-content: center;
+  	z-index: 5;
+}
+
+.completeButton {
+	border: 1px solid rgb(120,200,80);
+	background: rgb(120,200,80);
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.completeButton:hover {
+	border: 1px solid rgb(120,210,80);
+	background: rgb(130,220,80);
+}
+.haveComplete {
+	width: 60%;
+}
+
+
+.noButton {
+	height: 40px;
+	width: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 10px;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(230,110,110,1);
+	color: white;
+}
+.noButton:hover {
+	background-color: rgba(250,100,100,1);
+	color: white;
+}
+
+.messageInput {
+	height: 200px;
+	width: 300px;
+	background-color: rgba(230,230,230,.5);
+	border: 1px solid red;
+}
+
+.messageBox {
+	background: rgb(249,249,249);
+	height: 260px;
+	width: 240px;
+	border-radius: 15px;
+	box-shadow: 4px 2px 30px rgba(220,220,220,.7);
+	z-index: 5;
+	position: absolute;
+	top: -20px;
+	border-top-left-radius: 0px;
+}
+
+
+
+
+
+

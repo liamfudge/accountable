@@ -1,0 +1,62 @@
+.jumbo {
+	height: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.backingColor {
+	/*background: rgba(10,120,180,.2);*/
+	padding: 50px;
+	background-image: linear-gradient(to right, skyblue, rgba(10,120,190,.2));
+	/*background-image: linear-gradient(to right, rgba(135,206,250,.6), rgba(10,120,190,.2));*/
+}
+
+.footerBack {
+	/*background: rgba(10,120,180,.2);*/
+	padding: 30px;
+	padding-bottom: 50px;
+	background-image: linear-gradient(to right, skyblue, rgba(10,120,190,.2));
+}
+
+.socialIcon {
+	/*background-color: red;*/
+	opacity: .3;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.socialIcon:hover {
+	opacity: .4;
+}
+.oneThird {
+	width: 33%;
+	padding-top: 20px;
+}
+
+.footerBox {
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	margin: auto;
+}
+.links {
+	color: rgba(100,100,100,1);
+	cursor: pointer;
+	margin: 4px;
+}
+.links:hover {
+	color: rgba(100,100,100,.5);
+}
+.horizontalLine {
+	background: rgba(100,100,100,.3);
+	height: 2px;
+	width: 70%;
+	margin: auto;
+}
+
+.homePage {
+	overflow-x: hidden;
+}
+

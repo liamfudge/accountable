@@ -1,0 +1,72 @@
+.userAchievementLine {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+.userSuccessOuterBox {
+	/*border: 1px solid rgba(200,200,200,1);*/
+	width: 40%;
+	margin: auto;
+	cursor: pointer;
+	overflow: hidden;
+  	position: relative;
+  	mix-blend-mode: hard-light;
+
+  	height: 270px;
+}
+.userSuccessOuterBox:after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(transparent, white);
+}
+.userSuccessHeading {
+	padding: 20px;
+	opacity: 1;
+	transition: all 300ms;
+}
+.userSuccessHeading:hover {
+	opacity: .6;
+}
+.opacityHover {
+	opacity: 1;
+	transition: all 200ms;
+}
+.opacityHover:hover {
+	opacity: .6;
+}
+
+.userSuccessOuterBox2 {
+	width: 40%;
+	margin: auto;
+	cursor: pointer;
+	height: 270px;
+}
+
+.expectaionsImage {
+	border: 2px solid rgba(10,120,180,.2);
+	width: 60%;
+}
+
+.element {
+	border: 1px solid rgba(180,180,180,.2);
+	width: 100%;
+	margin: auto;
+}
+
+.notSelected {
+	opacity: .5;
+	filter: grayscale(50%);
+}
+
+.backgroundGrey {
+	background: rgba(220,220,220,.1);
+}
+
+
+
+
